@@ -354,7 +354,7 @@ img {
   gap: 24px;
 }
 .custumers-icon {
-  width: 104;
+  width: 104px;
   height: 56px;
   fill: #8e8f99;
   transition-property: fill;
@@ -587,6 +587,9 @@ img {
   display: flex;
   margin-left: auto;
   cursor: pointer;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
